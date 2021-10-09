@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3357452300399754707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3357452300399754705}
+  - component: {fileID: 3357452300399754706}
+  m_Layer: 0
+  m_Name: CharacterCreatorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3357452300399754705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3357452300399754707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2550, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3357452300399754706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3357452300399754707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4a6a4ec26280e4890d8465e8b070f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fcp: {fileID: 0}
+  fcpEyes: {fileID: 0}
+  fcpObjectEyes: {fileID: 0}
+  fcpSkin: {fileID: 0}
+  fcpObjectSkin: {fileID: 0}
+  hairColour: {fileID: 0}
+  fcpObject: {fileID: 0}
+  heads:
+  - {fileID: 21300000, guid: f77007f382bc9da48abd6b2aaa6e2174, type: 3}
+  - {fileID: 21300000, guid: d2d7596551a270e46b5c20037b5cbd16, type: 3}
+  bodies:
+  - {fileID: 21300000, guid: fc2f4988056db5042a5411f6a0b440e4, type: 3}
+  - {fileID: 21300000, guid: a44aa137aeabbf5458d87bf9fc24e2dc, type: 3}
+  eyes_sprite:
+  - {fileID: 21300000, guid: c07ed3d5d7bf505438f9c8f90e2cfdce, type: 3}
+  - {fileID: 21300000, guid: ce1629580da9e2e489fdda130b637d71, type: 3}
+  hairs_0:
+  - {fileID: 7314855645048065598, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: 6739222109226204257, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: 0}
+  tops_0:
+  - {fileID: 21300000, guid: b8d516651526f1e428e2f228b0b561b7, type: 3}
+  - {fileID: 21300000, guid: fb23bad377c67d241a9c37473a0771ec, type: 3}
+  bottoms_0:
+  - {fileID: 21300000, guid: c97664d06a9b18a459a9d0671a7cc9a8, type: 3}
+  - {fileID: 21300000, guid: dbb9a5c43bca0cf439a6b40aa56fc27e, type: 3}
+  facialHairs_0:
+  - {fileID: -8348155237093709907, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: 7841008841226060426, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: 0}
+  shoes_0:
+  - {fileID: 21300000, guid: dc9667a65c0f5764a9000797ed25e10a, type: 3}
+  - {fileID: 21300000, guid: b4ec19cc99b98434ab2216a1b35bbd36, type: 3}
+  hairs_1:
+  - {fileID: -7295149155272540576, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: -6854499061696255755, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  tops_1:
+  - {fileID: 21300000, guid: c3f88d9f133b9fa4abc4af0f9b5c8cd7, type: 3}
+  - {fileID: 21300000, guid: 6e68e4eb8930e584a8c5e299fbfb937e, type: 3}
+  bottoms_1:
+  - {fileID: 21300000, guid: d19bbfb4011ae474d92431de1fe03e5d, type: 3}
+  - {fileID: 21300000, guid: 4e42a0370687b984b8ac052f4236da22, type: 3}
+  facialHairs_1:
+  - {fileID: -3689168277946356633, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  - {fileID: 566848654531757920, guid: a7365ebb4de19984791f54f8a3555f03, type: 3}
+  shoes_1:
+  - {fileID: 21300000, guid: 5d8316e1c60e83549a3593b857986445, type: 3}
+  - {fileID: 21300000, guid: ddbb6a41d885eec4d9edb8fa347f1100, type: 3}
+  head: {fileID: 0}
+  eyes: {fileID: 0}
+  body: {fileID: 0}
+  hair: {fileID: 0}
+  facialHair: {fileID: 0}
+  top: {fileID: 0}
+  bottom: {fileID: 0}
+  shoes: {fileID: 0}
